@@ -10,4 +10,4 @@ const End = ({ retry }) => {
   )
 }
 
-export default End
+export default End;
