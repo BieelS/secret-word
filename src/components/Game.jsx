@@ -2,7 +2,8 @@
 import { useState, useRef } from 'react';
 import './Game.css'
 
-const Game = ({  verifyLetter,
+const Game = ({  
+  verifyLetter,
   pickedCategory,
   pickedWord,
   letters,

@@ -1,13 +1,16 @@
 /* eslint-disable react/prop-types */
-import './End.css'
+import "./End.css";
 
-const End = ({ retry }) => {
-  return ( 
-    <div>
-      <h1>End</h1>
-      <button onClick={retry}>Resetar Jogo</button>
+const GameOver = ({ retry, score }) => {
+  return (
+    <div className="gameover">
+      <h1>Fim de jogo!</h1>
+      <h2>
+        A sua pontuação foi: <span>{score}</span>!
+      </h2>
+      <button onClick={retry}>Reiniciar</button>
     </div>
-  )
-}
+  );
+};
 
-export default End;
+export default GameOver;
